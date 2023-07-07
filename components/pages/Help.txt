@@ -1,0 +1,28 @@
+
+
+export default function Help() {
+  return (
+    <div className={styles.dropdown}>
+      <button className={styles.mainmenubtn}>Precisa de ajuda?</button>
+      <div className={styles.dropdownchild}>
+        <h1 className={styles.title1}>Precisa de Ajuda?</h1>
+        <h2 className={styles.title2}>
+          Tire duas dúvidas na central de conhecimento <UilAirplay />
+        </h2>
+        <h1 className={styles.title1}>Ou entre em contato com o suporte</h1>
+        <h2 className={styles.title2}>
+          <UilEnvelope /> suporte@nexaas.com <UilCopy />
+        </h2>
+        <h2 className={styles.title2}>
+          <UilWhatsapp /> (11) 94219 - 0487 <UilCopy />
+        </h2>
+        <button className={styles.btn}>
+          Horário de Atendimento Segunda à Sexta: 9h às 18h
+        </button>
+        <h3 className={styles.title3}>
+          <UilExclamationTriangle /> Contato para emergências <UilAngleRight />{" "}
+        </h3>
+      </div>
+    </div>
+  );
+}
